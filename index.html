@@ -11,10 +11,10 @@
 <h2 class="w3-center">Биография 'лже'пожилого человека</h2>
 
 <div class="w3-content w3-display-container">
-  <img class="mySlides" src="https://memepedia.ru/wp-content/uploads/2018/06/unnamed.jpg" style="width:900px;height:600px;">
-  <img class="mySlides" src="https://i1.sndcdn.com/artworks-VOP3Z1yIw46P4baT-2IUQnA-t500x500.jpg" style="width:900px;height:600px;">
-  <img class="mySlides" src="https://memepedia.ru/wp-content/uploads/2018/06/zhmyshenko-glad.jpg" style="width:900px;height:600px;">
-  <img class="mySlides" src="https://memepedia.ru/wp-content/uploads/2018/06/zhmyh-valakas.jpg" style="width:900px;height:600px;">
+  <img class="mySlides" src="https://memepedia.ru/wp-content/uploads/2018/06/unnamed.jpg" style="width:1050px;height:600px;">
+  <img class="mySlides" src="https://i1.sndcdn.com/artworks-VOP3Z1yIw46P4baT-2IUQnA-t500x500.jpg" style="width:1050px;height:600px;">
+  <img class="mySlides" src="https://memepedia.ru/wp-content/uploads/2018/06/zhmyshenko-glad.jpg" style="width:1050px;height:600px;">
+  <img class="mySlides" src="https://memepedia.ru/wp-content/uploads/2018/06/zhmyh-valakas.jpg" style="width:1050px;height:600px;">
 
   <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
   <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
@@ -42,5 +42,30 @@ function showDivs(n) {
 <div style:"width:900px">
  <p>Глад Валакас (Пенис Детров, Жмышенко Валерий Альбертович) – стример онлайн-игр, ставший известным благодаря образу 54-летнего деда. Записывает видео, напрягая голосовые связки и говоря с акцентом.</p> 
 </div>
+  <button onclick="myFunction('Demo1')" class="w3-btn w3-block w3-black w3-left-align">Краткая информация о стримере</button>
+<div id="Demo1" class="w3-container w3-hide">
+  <h4>Человек, который украл образ ютубера в 2007 году</h4>
+  <p>Настоящее имя Валакаса – Денис Сухачев.Сухачев известен под несколькими образами: Глад Валакас, Валерий Жмышенко, Денис Петров и Пенис Детров.
+
+Считается, что Денис сам искажает свой голос, не прибегая к специальным программам, однако в интернете полно “разоблачений”, на которых слышны помехи при использовании т.н. масок.</p>
+</div>
+<button onclick="myFunction('Demo1')" class="w3-btn w3-block w3-black w3-left-align">Разоблачение пожилого жмыха</button>
+<div id="Demo1" class="w3-container w3-hide">
+  <h4>Фальшивое интервью на ТНТ</h4>
+  <p>В 2012 году на канале стримера было опубликовано интервью с ним в образе Жмышенка.</p>
+  <a href="https://www.youtube.com/watch?v=81Ez9VwU0do">Тык</a>
+</div>
+
+</div>
+<script>
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
 </body>
 </html>
